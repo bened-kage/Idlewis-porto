@@ -28,7 +28,7 @@ export default function Experience() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.6, delay: index * 0.08 }}
-            className="relative overflow-hidden rounded-3xl border border-slate-800 bg-slate-950/85 p-6 before:absolute before:left-5 before:top-6 before:h-3 before:w-3 before:rounded-full before:bg-cyan-400 before:shadow-glow sm:before:left-1/2 sm:before:top-10"
+            className="w-full relative overflow-hidden rounded-3xl border border-slate-800 bg-slate-950/85 p-6 before:hidden sm:before:block before:left-5 before:top-6 before:h-2 before:w-2 sm:before:left-1/2 sm:before:top-10 sm:before:h-3 sm:before:w-3 before:rounded-full before:bg-cyan-400 before:shadow-glow"
           >
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
               <div>
